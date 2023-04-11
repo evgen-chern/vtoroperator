@@ -3501,7 +3501,7 @@ body.compensate-for-scrollbar {
   }
 
   .wrapper main .index_slider {
-    max-height: 535px;
+    max-height: 100vh;
   }
 
   .wrapper main .index_slider .lSSlideOuter .lSPager {
