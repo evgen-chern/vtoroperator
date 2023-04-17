@@ -13,6 +13,9 @@ $(function() {
 
     let dropMobile = '.drop_link__mobile';
     let dropMenuMobile = '.dropdown_menu__mobile';
+    let popupWindow = '.popup_search';
+    let closePopupLink = '.close_popup';
+    let openPopupLink = '.header_top__links .search';
     $(document).on('click',function (e) {
         if (!$(e.target).closest('.change_lang').length) {
             $('.lang_list').stop(true).slideUp();
@@ -23,6 +26,19 @@ $(function() {
             $(dropMobile).removeClass('active');
         }
     });
+
+    $(openPopupLink).on('click',function (){
+        $(popupWindow).stop(true).fadeIn(300);
+        $('body').addClass('locked');
+    });
+    $(closePopupLink).on('click',function (){
+        $(popupWindow).stop(true).fadeOut(300);
+        $('body').removeClass('locked');
+    });
+
+    if($(popupWindow).hasClass('opened')){
+        console.log('yes');
+    }
 
     $('.header_mobile__button').on('click',function (){
         $(this).toggleClass('active');
