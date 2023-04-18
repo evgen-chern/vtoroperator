@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="x-ua-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.min.css?_v=20230418155818">
-  <title>Главная</title>
+  <link rel="stylesheet" href="css/style.min.css?_v=20230418164737">
+  <title>Ошибка 404</title>
 </head>
 <body>
 <div class="wrapper">
@@ -208,18 +208,44 @@
     </div>
 
 </header>
+
     <main>
-        <div class="container">
-            <ul class="breadcrumbs">
-                <li><a href="javascript:void(0)">Главная</a></li>
-                <li><a href="javascript:void(0)">Ошибка 404</a></li>
-            </ul>
-            <div class="error_404">
-                <img src="img/404.svg" alt="404">
-                <a href="/">Вернуться на главную</a>
+        <div class="breadcrumbs__wrapper">
+            <div class="breadcrumbs container" itemprop="http://schema.org/breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <ul>
+                    <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                        <a href="/" title="Главная" itemprop="item">
+                            Главная
+                        </a>
+                        <meta itemprop="position" content="1">
+                    </li>
+                    <li>
+                        <a class="active" href="javascript:void(0)">Ошибка 404</a>
+                    </li>
+                </ul>
             </div>
         </div>
+
+        <div class="content_container">
+            <h1 class="title_h1">Ошибка 404</h1>
+            <div class="error_404">
+                <img src="img/404.svg" alt="404">
+                <p>
+                    К сожалению, запрашиваемая страница не найдена.
+                    Возможно, вы перешли по ссылке, в которой была допущена ошибка,
+                    или ресурс был удален. Попробуйте перейти на главную страницу
+                </p>
+                <a href="/">
+                    Вернуться на главную
+                    <svg width="21" height="9" viewBox="0 0 21 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1716 0.96447L20.3536 4.14645C20.5488 4.34171 20.5488 4.6583 20.3536 4.85356L17.1716 8.03554C16.9763 8.2308 16.6597 8.2308 16.4645 8.03554C16.2692 7.84028 16.2692 7.52369 16.4645 7.32843L18.7929 5H0V4H18.7929L16.4645 1.67158C16.2692 1.47631 16.2692 1.15973 16.4645 0.96447C16.6597 0.769208 16.9763 0.769208 17.1716 0.96447Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
     </main>
+
     <footer>
     <div class="footer__with_bg">
         <div class="footer_menu__wrapper">
@@ -459,7 +485,9 @@
     </div>
 </footer>
 </div>
-<script src="js/jquery-3.4.1.min.js?_v=20230418155818"></script>
-<script src="js/app.min.js?_v=20230418155818"></script>
+<script src="js/jquery-3.4.1.min.js?_v=20230418164737"></script>
+<script src="js/lightslider.min.js?_v=20230418164737"></script>
+<script src="js/fancy.min.js?_v=20230418164737"></script>
+<script src="js/app.min.js?_v=20230418164737"></script>
 </body>
 </html>

@@ -3048,35 +3048,47 @@ body.locked {
 }
 
 .wrapper .error_404 {
-  padding: 75px 0 140px 0;
+  padding: 115px 0;
 }
 
 .wrapper .error_404 img {
   display: block;
   margin: 0 auto;
   width: 100%;
-  max-width: 610px;
+  max-width: 275px;
+}
+
+.wrapper .error_404 p {
+  text-align: center;
+  margin: 20px auto 30px auto;
+  max-width: 665px;
 }
 
 .wrapper .error_404 a {
   display: block;
-  margin: 30px auto 0 auto;
-  padding: 15px 50px;
-  width: 100%;
-  max-width: 255px;
-  background: #5F6975;
-  font-weight: 600;
+  margin: 0 auto;
+  padding: 20px 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #00AF91;
+  border-radius: 43px;
+  font-weight: 750;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 15px;
   text-transform: uppercase;
-  color: #F2F2F2;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
+  color: #FFFFFF;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .wrapper .error_404 a:hover {
-  background: #7EB67D;
+  background: #415861;
+}
+
+.wrapper .error_404 a svg {
+  margin-left: 15px;
 }
 
 .wrapper .operator_reports .description {
@@ -3495,6 +3507,12 @@ body.locked {
 
 .wrapper .procurement .procurement_table .item:first-child .value {
   border-radius: 0 30px 0 0;
+}
+
+@media all and (max-width: 1440px) {
+  .wrapper .error_404 {
+    padding: 50px 0;
+  }
 }
 
 @media all and (max-width: 1439px) {
