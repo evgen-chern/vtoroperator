@@ -3441,6 +3441,62 @@ body.locked {
   width: 50px;
 }
 
+.wrapper .procurement .procurement_table {
+  margin-top: 30px;
+  background: white;
+}
+
+.wrapper .procurement .procurement_table .item {
+  background: #fff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr 1fr;
+  grid-template-columns: 0.2fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-gap: 2px;
+  border: 1px solid #fff;
+}
+
+.wrapper .procurement .procurement_table .item:hover .cell {
+  color: #00AF91;
+}
+
+.wrapper .procurement .procurement_table .item .cell {
+  background: #F3F4F5;
+  padding: 25px 30px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wrapper .procurement .procurement_table .item:last-child .date {
+  border-radius: 0 0 0 30px;
+}
+
+.wrapper .procurement .procurement_table .item:last-child .value {
+  border-radius: 0 0 30px 0;
+}
+
+.wrapper .procurement .procurement_table .item:nth-child(odd) .cell {
+  background: #fff;
+}
+
+.wrapper .procurement .procurement_table .item:first-child .cell {
+  background: #A2B6BD;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.wrapper .procurement .procurement_table .item:first-child .date {
+  border-radius: 30px 0 0 0;
+}
+
+.wrapper .procurement .procurement_table .item:first-child .value {
+  border-radius: 0 30px 0 0;
+}
+
 @media all and (max-width: 1439px) {
   .wrapper main .about_us .content {
     padding: 35px 20px;
@@ -3785,6 +3841,10 @@ body.locked {
     font-size: 22px;
     line-height: 28px;
   }
+
+  .wrapper .procurement .procurement_table {
+    margin-top: 25px;
+  }
 }
 
 @media all and (max-width: 1279px) {
@@ -3866,6 +3926,10 @@ body.locked {
 
   .wrapper .info_work .our_contacts .channels_wrapper {
     margin-right: 25px;
+  }
+
+  .wrapper .procurement .procurement_table .item .cell {
+    padding: 20px 25px;
   }
 }
 
@@ -4173,6 +4237,14 @@ body.locked {
   .wrapper .info_work .our_contacts .socials_wrapper .list .link {
     margin-right: 10px;
   }
+
+  .wrapper .procurement .procurement_table {
+    margin-top: 20px;
+  }
+
+  .wrapper .procurement .procurement_table .item .cell {
+    padding: 15px 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4436,6 +4508,31 @@ body.locked {
   .wrapper .info_work .our_contacts .channels_wrapper {
     margin-right: 0;
     margin-bottom: 25px;
+  }
+
+  .wrapper .procurement .procurement_table .item {
+    -ms-grid-columns: 0.4fr 1fr;
+    grid-template-columns: 0.4fr 1fr;
+  }
+
+  .wrapper .procurement .procurement_table .item .cell {
+    padding: 10px;
+  }
+
+  .wrapper .procurement .procurement_table .item:last-child .date {
+    border-radius: 0 0 0 5px;
+  }
+
+  .wrapper .procurement .procurement_table .item:last-child .value {
+    border-radius: 0 0 5px 0;
+  }
+
+  .wrapper .procurement .procurement_table .item:first-child .date {
+    border-radius: 5px 0 0 0;
+  }
+
+  .wrapper .procurement .procurement_table .item:first-child .value {
+    border-radius: 0 5px 0 0;
   }
 }
 
