@@ -60,4 +60,13 @@ $(function() {
         speed: 600,
     });
 
+
+    $('[data-fancybox="inform_video"]').fancybox({
+        buttons: [
+            "close"
+        ],
+        loop: false,
+        protect: true
+    });
+
 });
