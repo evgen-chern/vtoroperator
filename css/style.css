@@ -3509,6 +3509,62 @@ body.locked {
   border-radius: 0 30px 0 0;
 }
 
+.wrapper .how_to_pay .info_title {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.wrapper .how_to_pay .info_block {
+  background: #F3F4F5;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.wrapper .how_to_pay .info_block .block_title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.wrapper .how_to_pay .info_block .block_text {
+  margin-top: 10px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+.wrapper .how_to_pay .info_block .block_text.mt_20 {
+  margin-top: 20px;
+}
+
+.wrapper .how_to_pay .info_block .requisites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper .how_to_pay .info_block .requisites:before {
+  content: "";
+  display: block;
+  margin-right: 15px;
+  min-width: 2px;
+  width: 2px;
+  background: #00AF91;
+}
+
+.wrapper .how_to_pay .info_block .requisites .list p {
+  line-height: 17px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.wrapper .how_to_pay .info_block .requisites .list p:last-child {
+  margin-bottom: 0;
+}
+
 @media all and (max-width: 1440px) {
   .wrapper .error_404 {
     padding: 50px 0;
@@ -3862,6 +3918,16 @@ body.locked {
 
   .wrapper .procurement .procurement_table {
     margin-top: 25px;
+  }
+
+  .wrapper .how_to_pay .info_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .wrapper .how_to_pay .info_block {
+    margin-top: 25px;
+    padding: 25px;
   }
 }
 
@@ -4263,6 +4329,16 @@ body.locked {
   .wrapper .procurement .procurement_table .item .cell {
     padding: 15px 20px;
   }
+
+  .wrapper .how_to_pay .info_title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .wrapper .how_to_pay .info_block {
+    margin-top: 20px;
+    padding: 20px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4551,6 +4627,18 @@ body.locked {
 
   .wrapper .procurement .procurement_table .item:first-child .value {
     border-radius: 0 5px 0 0;
+  }
+
+  .wrapper .how_to_pay .info_block .block_title {
+    margin-bottom: 15px;
+  }
+
+  .wrapper .how_to_pay .info_block .block_text.mt_20 {
+    margin-top: 10px;
+  }
+
+  .wrapper .how_to_pay .info_block .block_text {
+    margin-top: 10px;
   }
 }
 
