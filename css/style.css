@@ -3114,7 +3114,7 @@ body.locked {
   font-size: 25px;
   line-height: 31px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .wrapper h4 {
@@ -3758,6 +3758,227 @@ body.locked {
   margin-bottom: 0;
 }
 
+.wrapper .contacts_page .contact_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 50px;
+  background: #F3F4F5;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.wrapper .contacts_page .contact_info .info {
+  max-width: 518px;
+}
+
+.wrapper .contacts_page .contact_info .info p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper .contacts_page .contact_info .info p:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .contacts_page .contact_info .info b {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.wrapper .contacts_page .contact_info .appeals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 508px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 0 55px;
+}
+
+.wrapper .contacts_page .contact_info .appeals:before {
+  content: "";
+  display: block;
+  margin: 0 auto 47px auto;
+  width: 200px;
+  height: 5px;
+  background: #415861;
+  border-radius: 0 0 5px 5px;
+}
+
+.wrapper .contacts_page .contact_info .appeals:after {
+  content: "";
+  display: block;
+  margin: 47px auto 0 auto;
+  width: 200px;
+  height: 5px;
+  background: #00AF91;
+  border-radius: 5px 5px 0 0;
+}
+
+.wrapper .contacts_page .contact_info .appeals svg {
+  min-width: 120px;
+  width: 120px;
+}
+
+.wrapper .contacts_page .contact_info .appeals p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+
+.wrapper .contacts_page .contact_info .appeals a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: 750;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  background: #00AF91;
+  border-radius: 43px;
+}
+
+.wrapper .contacts_page .contact_info .appeals a svg {
+  width: 20px;
+  min-width: 20px;
+  margin-left: 15px;
+}
+
+.wrapper .contacts_page .management .big_card {
+  background: #F3F4F5;
+  border-radius: 30px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+}
+
+.wrapper .contacts_page .management .big_card img {
+  display: block;
+  width: 245px;
+}
+
+.wrapper .contacts_page .management .big_card .info_wrapper {
+  margin-left: 30px;
+  max-width: 70%;
+}
+
+.wrapper .contacts_page .management .big_card .info_wrapper h3 {
+  font-weight: 450;
+  margin-bottom: 10px;
+}
+
+.wrapper .contacts_page .management .big_card .info_wrapper .job_title {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.wrapper .contacts_page .management .big_card .info_wrapper .location {
+  font-weight: 750;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.wrapper .contacts_page .management .big_card .info_wrapper .schedule {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.wrapper .contacts_page .management .middle_card .fio {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.wrapper .contacts_page .management .middle_card .location {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.wrapper .contacts_page .management .middle_card:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 30px 0;
+  background: #e3e3e3;
+}
+
+.wrapper .contacts_page .management .card:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 30px 0;
+  background: #e3e3e3;
+}
+
+.wrapper .contacts_page .management .card:last-child:after {
+  content: unset;
+}
+
+.wrapper .contacts_page .management .card .info {
+  margin-bottom: 20px;
+}
+
+.wrapper .contacts_page .management .card .info:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .contacts_page .management .card .info .location {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.wrapper .contacts_page .management .card .info .job_title {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
 @media all and (max-width: 1440px) {
   .wrapper .error_404 {
     padding: 50px 0;
@@ -4102,7 +4323,6 @@ body.locked {
   .wrapper h3 {
     font-size: 20px;
     line-height: 24px;
-    margin-bottom: 20px;
   }
 
   .wrapper h4 {
@@ -4199,6 +4419,32 @@ body.locked {
     margin-top: 25px;
     padding: 25px;
   }
+
+  .wrapper .contacts_page .contact_info {
+    margin-bottom: 30px;
+    padding: 30px;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals {
+    padding: 0 35px;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals:before {
+    margin: 0 auto 37px auto;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals:after {
+    margin: 37px 0 auto 0 auto;
+  }
+
+  .wrapper .contacts_page .management .big_card {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+
+  .wrapper .contacts_page .management .big_card .info_wrapper {
+    max-width: 100%;
+  }
 }
 
 @media all and (max-width: 1279px) {
@@ -4284,6 +4530,24 @@ body.locked {
 
   .wrapper .procurement .procurement_table .item .cell {
     padding: 20px 25px;
+  }
+
+  .wrapper .contacts_page .contact_info .info {
+    max-width: 45%;
+  }
+
+  .wrapper .contacts_page .contact_info .info p {
+    margin-bottom: 15px;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals {
+    max-width: 45%;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals p {
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 
@@ -4686,6 +4950,35 @@ body.locked {
     margin-top: 20px;
     padding: 20px;
   }
+
+  .wrapper .contacts_page .contact_info {
+    padding: 20px;
+  }
+
+  .wrapper .contacts_page .management .big_card {
+    padding: 20px;
+  }
+
+  .wrapper .contacts_page .management .big_card img {
+    width: 215px;
+  }
+
+  .wrapper .contacts_page .management .big_card .info_wrapper {
+    margin-left: 20px;
+  }
+
+  .wrapper .contacts_page .management .middle_card .fio {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .wrapper .contacts_page .management .middle_card:after {
+    margin: 25px 0;
+  }
+
+  .wrapper .contacts_page .management .card:after {
+    margin: 25px 0;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -4990,6 +5283,51 @@ body.locked {
 
   .wrapper .how_to_pay .info_block .block_text {
     margin-top: 10px;
+  }
+
+  .wrapper .contacts_page .contact_info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper .contacts_page .contact_info .info {
+    max-width: 100%;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals:before {
+    margin: 0 auto 27px auto;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals:after {
+    margin: 27px 0 auto 0 auto;
+  }
+
+  .wrapper .contacts_page .contact_info .appeals svg {
+    min-width: 100px;
+    width: 100px;
+  }
+
+  .wrapper .contacts_page .management .big_card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper .contacts_page .management .big_card img {
+    width: 100%;
+  }
+
+  .wrapper .contacts_page .management .big_card .info_wrapper {
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 
