@@ -4362,6 +4362,31 @@ body.locked {
   margin: 0;
 }
 
+.wrapper .legislation .gray_block {
+  background: #F3F4F5;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.wrapper .legislation .gray_block:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .legislation .gray_block ul li {
+  line-height: 17px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.wrapper .legislation .gray_block ul li:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .legislation .gray_block ul li u {
+  text-decoration: underline;
+}
+
 @media all and (max-width: 1440px) {
   .wrapper .error_404 {
     padding: 50px 0;
@@ -5489,6 +5514,11 @@ body.locked {
 
   .wrapper .news_page .related_news {
     margin: 25px 0 0 0;
+  }
+
+  .wrapper .legislation .gray_block {
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }
 
