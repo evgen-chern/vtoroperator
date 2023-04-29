@@ -77,14 +77,14 @@ $(function() {
     });
 
     $(spoilerName).on('click', function (){
-        $(spoilerName).not($(this)).removeClass('active');
-        $(spoilerAnswer).not($(this).next()).stop(true).slideUp();
+        //$(spoilerName).not($(this)).removeClass('active');
+        //$(spoilerAnswer).not($(this).next()).stop(true).slideUp();
         $(this).toggleClass('active').next().stop(true).slideToggle();
     });
 
     $(subSpoilerName).on('click', function (){
-        $(subSpoilerName).not($(this)).removeClass('active');
-        $(subSpoilerAnswer).not($(this).next()).stop(true).slideUp();
+        //$(subSpoilerName).not($(this)).removeClass('active');
+        //$(subSpoilerAnswer).not($(this).next()).stop(true).slideUp();
         $(this).toggleClass('active').next().stop(true).slideToggle();
     });
 
