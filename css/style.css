@@ -5300,6 +5300,98 @@ body.locked {
   text-transform: uppercase;
 }
 
+.wrapper .report_contract {
+  margin-bottom: 150px;
+}
+
+.wrapper .report_contract .content_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.wrapper .report_contract .content_wrapper .left_side {
+  margin-right: 30px;
+  width: 40%;
+}
+
+.wrapper .report_contract .content_wrapper .left_side p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.wrapper .report_contract .content_wrapper .left_side p:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .report_contract .content_wrapper .right_side {
+  width: 60%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .report_contract .content_wrapper .right_side img {
+  width: 100%;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description {
+  z-index: 5;
+  width: 100%;
+  margin: 0 80px 0 auto;
+  position: absolute;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description .wrap {
+  max-width: 324px;
+  margin: 0 0 0 auto;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description h5 {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description .link {
+  padding: 20px 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 750;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #00AF91;
+  border-radius: 43px;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description .link svg {
+  margin-left: 15px;
+}
+
+.wrapper .report_contract .content_wrapper .right_side .description .link:hover {
+  background: #415861;
+}
+
 @media all and (max-width: 1440px) {
   .wrapper .error_404 {
     padding: 50px 0;
@@ -5906,6 +5998,10 @@ body.locked {
     font-size: 14px;
     line-height: 20px;
   }
+
+  .wrapper .report_contract {
+    margin-bottom: 75px;
+  }
 }
 
 @media all and (max-width: 1279px) {
@@ -6232,6 +6328,27 @@ body.locked {
   .wrapper .rop_detail .small_ttl {
     font-size: 14px;
     line-height: 16px;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description {
+    margin: 0 40px 0 auto;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .wrap {
+    max-width: 250px;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .link {
+    padding: 15px 30px;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .link svg {
+    margin-left: 10px;
   }
 }
 
@@ -6839,6 +6956,27 @@ body.locked {
   .wrapper .rop_detail .block_with_image {
     padding: 62px 70px;
   }
+
+  .wrapper .report_contract .content_wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .wrapper .report_contract .content_wrapper .left_side {
+    width: 100%;
+    margin: 0 0 30px 0;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side {
+    width: 100%;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .wrap {
+    max-width: 350px;
+    margin: 0 50px 0 auto;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -7369,6 +7507,24 @@ body.locked {
   .wrapper .rop_detail .pay_fee .white_bg .collect_scheme {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description {
+    margin: 0 35px 0 auto;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .wrap {
+    max-width: 180px;
+    margin: 0 0 0 auto;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description h5 {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .wrapper .report_contract .content_wrapper .right_side .description .link {
+    padding: 12px 25px;
   }
 }
 
