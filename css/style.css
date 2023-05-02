@@ -5392,6 +5392,194 @@ body.locked {
   background: #415861;
 }
 
+.wrapper .financing_enterprise h3 {
+  margin: 0;
+}
+
+.wrapper .financing_enterprise .grey_block {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  background: #F3F4F5;
+  border-radius: 30px;
+}
+
+.wrapper .financing_enterprise .grey_block svg {
+  margin-right: 30px;
+}
+
+.wrapper .financing_enterprise .grey_block h2 {
+  margin: 0;
+}
+
+.wrapper .financing_enterprise .ordered {
+  margin: 30px 0;
+}
+
+.wrapper .financing_enterprise .ordered li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+
+.wrapper .financing_enterprise .ordered li:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .financing_enterprise .ordered li span {
+  display: block;
+}
+
+.wrapper .financing_enterprise .ordered li .number {
+  font-size: 16px;
+  text-align: center;
+  color: #00AF91;
+  padding: 13px 20px;
+  background: #F3F4F5;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.wrapper .financing_enterprise .ordered li .text {
+  line-height: 17px;
+  text-align: justify;
+}
+
+.wrapper .financing_enterprise .unordered li {
+  margin-bottom: 10px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+.wrapper .financing_enterprise .unordered li:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .financing_enterprise .link {
+  text-decoration-line: underline;
+  text-align: justify;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.wrapper .financing_enterprise .link:hover {
+  color: #00AF91;
+}
+
+.wrapper .financing_enterprise .fin_scheme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list {
+  position: relative;
+  height: 100%;
+  padding: 0 80px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list:before {
+  position: absolute;
+  left: 0;
+  top: 74px;
+  content: url("../img/line_fin.svg");
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  width: 1px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 68px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item:after {
+  position: absolute;
+  top: 140px;
+  content: url("../img/dash_ic_down.svg");
+  height: 68px;
+  display: block;
+  overflow: hidden;
+  margin-left: 130px;
+  z-index: 6;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item:last-child:after {
+  content: unset;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item .svg_container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item .svg_container:before {
+  position: absolute;
+  content: url("../img/hor_dash.svg");
+  display: block;
+  overflow: hidden;
+  z-index: 7;
+  left: -40%;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item .svg_container svg {
+  width: 140px;
+  height: 140px;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item .grey_bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-left: 30px;
+  padding: 30px;
+  height: 110px;
+  background: #F3F4F5;
+  border-radius: 30px;
+}
+
+.wrapper .financing_enterprise .fin_scheme .scheme_list .item .grey_bg h4 {
+  margin: 0;
+}
+
 @media all and (max-width: 1440px) {
   .wrapper .error_404 {
     padding: 50px 0;
@@ -6350,6 +6538,55 @@ body.locked {
   .wrapper .report_contract .content_wrapper .right_side .description .link svg {
     margin-left: 10px;
   }
+
+  .wrapper .financing_enterprise .grey_block {
+    margin: 20px 0;
+    padding: 15px 20px;
+  }
+
+  .wrapper .financing_enterprise .grey_block svg {
+    margin-right: 20px;
+  }
+
+  .wrapper .financing_enterprise .ordered {
+    margin: 20px 0;
+  }
+
+  .wrapper .financing_enterprise .ordered li .number {
+    margin-right: 20px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme {
+    margin: 30px 0;
+    padding: 0;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list {
+    padding: 0 50px;
+    overflow-y: hidden;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list:before {
+    height: 90%;
+    top: 54px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item:after {
+    top: 100px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item .svg_container svg {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item .grey_bg {
+    margin-left: 20px;
+    padding: 20px;
+    height: 90px;
+  }
 }
 
 @media all and (max-width: 1023px) {
@@ -6977,6 +7214,18 @@ body.locked {
     max-width: 350px;
     margin: 0 50px 0 auto;
   }
+
+  .wrapper .financing_enterprise .grey_block svg {
+    min-width: 70px;
+    width: 70px;
+    min-height: 70px;
+    height: 70px;
+  }
+
+  .wrapper .financing_enterprise .ordered li .number {
+    padding: 9px 17px;
+    font-size: 14px;
+  }
 }
 
 @media all and (max-width: 767px) {
@@ -7525,6 +7774,44 @@ body.locked {
 
   .wrapper .report_contract .content_wrapper .right_side .description .link {
     padding: 12px 25px;
+  }
+
+  .wrapper .financing_enterprise .ordered li {
+    margin-bottom: 10px;
+  }
+
+  .wrapper .financing_enterprise .ordered li .number {
+    margin-right: 10px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list {
+    padding: 0 0 0 20px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list:before {
+    top: 70px;
+    height: 88%;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item:after {
+    top: 130px;
+    margin-left: 85px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item .svg_container svg {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item .grey_bg {
+    margin-left: 15px;
+    height: 130px;
+  }
+
+  .wrapper .financing_enterprise .fin_scheme .scheme_list .item .grey_bg h4 {
+    font-size: 13px;
   }
 }
 
