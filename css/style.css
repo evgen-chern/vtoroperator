@@ -3921,12 +3921,19 @@ body.locked {
   padding: 20px 40px;
   background: #00AF91;
   border-radius: 43px;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
 }
 
 .wrapper .contacts_page .contact_info .appeals a svg {
   width: 20px;
   min-width: 20px;
   margin-left: 15px;
+}
+
+.wrapper .contacts_page .contact_info .appeals a:hover {
+  background: #415861;
 }
 
 .wrapper .contacts_page .management .middle_card .fio {
