@@ -3285,12 +3285,8 @@ body.locked {
   text-decoration: none;
 }
 
-.wrapper .operator_reports .description {
-  text-align: justify;
-  margin-bottom: 30px;
-}
-
-.wrapper .operator_reports .reports_filter {
+.wrapper .reports_filter,
+.wrapper .questions_filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3300,7 +3296,8 @@ body.locked {
   margin-bottom: 30px;
 }
 
-.wrapper .operator_reports .reports_filter .link {
+.wrapper .reports_filter .link,
+.wrapper .questions_filter .link {
   display: block;
   margin-right: 10px;
   padding: 10px 20px;
@@ -3314,18 +3311,26 @@ body.locked {
   transition: 0.1s;
 }
 
-.wrapper .operator_reports .reports_filter .link:hover {
+.wrapper .reports_filter .link:hover,
+.wrapper .questions_filter .link:hover {
   background: #00AF91;
   color: #fff;
 }
 
-.wrapper .operator_reports .reports_filter .link.active {
+.wrapper .reports_filter .link.active,
+.wrapper .questions_filter .link.active {
   background: #00AF91;
   color: #fff;
 }
 
-.wrapper .operator_reports .reports_filter .link:last-child {
+.wrapper .reports_filter .link:last-child,
+.wrapper .questions_filter .link:last-child {
   margin-right: 0;
+}
+
+.wrapper .operator_reports .description {
+  text-align: justify;
+  margin-bottom: 30px;
 }
 
 .wrapper .operator_reports .reports_list {
@@ -5580,6 +5585,38 @@ body.locked {
   margin: 0;
 }
 
+.wrapper .faq_question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  background: #F3F4F5;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.wrapper .faq_question:first-child {
+  margin-top: 0;
+}
+
+.wrapper .faq_question h4 {
+  margin-bottom: 10px;
+}
+
+.wrapper .faq_question p {
+  line-height: 17px;
+  text-align: justify;
+}
+
+.wrapper .faq_question svg {
+  min-width: 85px;
+  min-height: 85px;
+  margin-left: 30px;
+}
+
 .wrapper .financing_expense h4 {
   margin-bottom: 20px;
 }
@@ -5706,38 +5743,6 @@ body.locked {
 
 .wrapper .financing_expense .reference_info p a:hover {
   color: #00AF91;
-}
-
-.wrapper .financing_expense .faq_question {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 30px;
-  background: #F3F4F5;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-
-.wrapper .financing_expense .faq_question:first-child {
-  margin-top: 0;
-}
-
-.wrapper .financing_expense .faq_question h4 {
-  margin-bottom: 10px;
-}
-
-.wrapper .financing_expense .faq_question p {
-  line-height: 17px;
-  text-align: justify;
-}
-
-.wrapper .financing_expense .faq_question svg {
-  min-width: 85px;
-  min-height: 85px;
-  margin-left: 30px;
 }
 
 @media all and (max-width: 1440px) {
@@ -6425,7 +6430,8 @@ body.locked {
     padding: 25px;
   }
 
-  .wrapper .operator_reports .reports_filter .link {
+  .wrapper .reports_filter .link,
+  .wrapper .questions_filter .link {
     padding: 10px 15px;
     line-height: 16px;
   }
@@ -6749,6 +6755,16 @@ body.locked {
     height: 90px;
   }
 
+  .wrapper .faq_question {
+    padding: 20px;
+  }
+
+  .wrapper .faq_question svg {
+    min-width: 70px;
+    min-height: 70px;
+    margin-left: 20px;
+  }
+
   .wrapper .financing_expense .ordered {
     margin: 20px 0;
   }
@@ -6796,16 +6812,6 @@ body.locked {
     margin-right: 20px;
     min-height: 70px;
     min-width: 70px;
-  }
-
-  .wrapper .financing_expense .faq_question {
-    padding: 20px;
-  }
-
-  .wrapper .financing_expense .faq_question svg {
-    min-width: 70px;
-    min-height: 70px;
-    margin-left: 20px;
   }
 }
 
@@ -7129,18 +7135,20 @@ body.locked {
     line-height: 20px;
   }
 
-  .wrapper .operator_reports .description {
-    margin-bottom: 15px;
-  }
-
-  .wrapper .operator_reports .reports_filter {
+  .wrapper .reports_filter,
+  .wrapper .questions_filter {
     margin-bottom: 10px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 
-  .wrapper .operator_reports .reports_filter .link {
+  .wrapper .reports_filter .link,
+  .wrapper .questions_filter .link {
     margin: 0 10px 10px 0;
+  }
+
+  .wrapper .operator_reports .description {
+    margin-bottom: 15px;
   }
 
   .wrapper .operator_reports .reports_list .item {
@@ -8046,6 +8054,12 @@ body.locked {
     font-size: 13px;
   }
 
+  .wrapper .faq_question svg {
+    min-width: 50px;
+    min-height: 50px;
+    margin-left: 15px;
+  }
+
   .wrapper .financing_expense .expense_scheme {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
@@ -8060,12 +8074,6 @@ body.locked {
 
   .wrapper .financing_expense .reference_info svg {
     margin: 0 0 20px 0;
-  }
-
-  .wrapper .financing_expense .faq_question svg {
-    min-width: 50px;
-    min-height: 50px;
-    margin-left: 15px;
   }
 }
 
